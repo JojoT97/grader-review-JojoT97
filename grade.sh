@@ -25,9 +25,9 @@ else
 fi
 
 
-cp student-submission/ListExamples.java ./GradingArea
+cp student-submission/ListExamples.java ./grading-area
 
-cd GradingArea
+cd grading-area
 
 javac -cp $CPATH *.java
 
